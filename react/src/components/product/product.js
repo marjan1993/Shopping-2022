@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export function Product({ data }) {
-  // const data = props.data;
   return (
     <div className="card mt-5">
       <div className="card-body">
