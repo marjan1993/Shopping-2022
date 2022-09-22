@@ -5,8 +5,8 @@ export function Search() {
   const [state, setState] = useState();
   const history = useHistory();
   const submitHandler = (e) => {
-    e.target.reset(); //form will be reset
-    e.preventDefault(); //eill prevent browser to submit the form
+    e.target.reset();
+    e.preventDefault(); 
     history.push("/?q=" + state);
   };
 
