@@ -19,7 +19,6 @@ export class DetailPage extends Component {
   componentWillUnmount() {
     this.unsubscribe();
   }
-  //Note: productService.getProductById(id).then(response => this.setState({data: response.data})) //2 ways are correct
 
   async submitComment(comment) {
     const reponse = await productService.addComment(
